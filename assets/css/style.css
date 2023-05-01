@@ -1,12 +1,16 @@
+/* Apply to all elements*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* sets background color for body element*/
 
 body {
     background-color: #d9dcd6;
 }
+/* Style for the header element*/
 
 .header {
     padding: 20px;
@@ -15,15 +19,18 @@ body {
     color: #ffffff;
 }
 
+/* style for h1 element in header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* styles for .seo element inside h1 element of the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* style for nav element within the header*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +39,30 @@ body {
     font-size: 20px;
 }
 
+/* style for li elements with header element*/
 .header nav ul {
     list-style-type: none;
 }
 
+/* style for li inside the ul element of the nav element */
 .header nav ul li {
     display: inline-block;
     padding: 10px;
     
 }
 
+/* style for anchor elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* style for paragraph elements */
 p {
     font-size: 16px;
 }
 
+/* style for the hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +72,26 @@ p {
     background-position: center;
 }
 
+/* style for float-left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* style for float-right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* style for content class*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* style for benefits class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,54 +103,64 @@ p {
     background-color: #2589bd;
 }
 
+/* style for benefit-lead*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* style for benefit-brand class */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* style for benefit-cost*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* style for h3 element in benefit-lead class*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*style for h3 element within benefit-brand class*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*style for h3 element in benefit-cost class*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* style for img within benefit-lead class*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* style for benefit-brand img*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* style for benefit-cost img*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* style for search-engine-optimization class*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -144,6 +170,7 @@ p {
     color: #ffffff;
 }
 
+/* style for online-reputation-managment class*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,6 +180,7 @@ p {
     color: #ffffff;
 }
 
+/* style for social-media-marketing class */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,33 +190,40 @@ p {
     color: #ffffff;
 }
 
+/* style for image inside search-engine-optimization*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*style for img inside online-repuation*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*style for img within social-media-marketing*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* style for h2 element within search-engine-optimization*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* style for h2 element within online-reputuation-managment class*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* style for h2 element with social-media-market class*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+ 
+/* style for footer element*/
 .footer {
     padding: 30px;
     clear: both;
@@ -196,6 +231,7 @@ p {
     text-align: center;
 }
 
+/* style for h4 element with footer element*/
 .footer h4 {
     font-size: 20px;
 }
